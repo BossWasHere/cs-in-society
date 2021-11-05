@@ -1,59 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="main.scss" />
-  <link
-    rel="stylesheet"
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous"
-  />
-  <script
-    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"
-  ></script>
-  <title>CS in Society</title>
-</head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Computer Science in Society</a>
-  <button
-    class="navbar-toggler"
-    type="button"
-    data-toggle="collapse"
-    data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <title>CS in Society</title>
+    <!--  <style>-->
+    <!--    html,-->
+    <!--    body {-->
+    <!--      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',-->
+    <!--      'Lucida Sans', Arial, sans-serif;-->
+    <!--    }-->
+    <!--    p {-->
+    <!--      margin-top: 100px;-->
+    <!--      margin-bottom: 100px;-->
+    <!--      margin-right: 150px;-->
+    <!--      margin-left: 80px;-->
+    <!--    }-->
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#"
-        >Home <span class="sr-only">(current)</span></a
-        >
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="ts.html">[Page 1]</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="bs.html">Fighting wildfires</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">[Page 3]</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">[Page 4]</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-</body>
+    <!--    .box {-->
+    <!--      width: 30%;-->
+    <!--      height: 200px;-->
+    <!--      border: 5px dashed #f7a239;-->
+    <!--    }-->
+
+    <!--    img {-->
+    <!--      width: 50%;-->
+    <!--      height: 100%;-->
+    <!--    }-->
+
+    <!--    .center {-->
+    <!--      display: block;-->
+    <!--      margin-left: auto;-->
+    <!--      margin-right: auto;-->
+    <!--      width: 50%;-->
+    <!--    }-->
+
+    <!--  </style>-->
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Computer Science in Society</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ts.html">AI In The Art</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Fighting wildfires <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="yh.html">[Page 3]</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">[Page 4]</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="content" class="container">
+      <div class="blog-header">
+        <h1>
+          CAT scans and advanced computing used by Stanford researchers to fight
+          wildfires
+        </h1>
+        <div class="row">
+          <div class="col-sm-8 blog-main">
+            <div class="blog-post">
+              <p class="blog-post-meta">
+                October 29, 2021 by <b>Bazil Shah</b>
+              </p>
+              <hr />
+              <p>
+                CAT scanners, instruments usually used in medicine to get a
+                detailed image of a person's body, have recently been used by
+                Stanford researchers to gain a better understanding on the
+                process of how exactly smoldering works (the state of burning
+                without flame that often leads to fire). They then folded this
+                deeper understanding of burning into computer models to predict
+                where wildfires might strike next. These models could help
+                firefighters allocate precious resources, reduce the loss of
+                property and help save lives, the researchers say.
+              </p>
+            </div>
+
+            <div>
+              <img
+                src="./assets/wildfire.jpg"
+                alt="wildfire from www.scientificamerican.com"
+                height="300"
+              />
+              <figcaption class="figure-caption">
+                Source:
+                <a
+                  href="https://www.scientificamerican.com/article/severe-wildfires-raise-the-chance-for-future-monstrous-blazes/"
+                  >Scientific Amazon</a
+                >
+              </figcaption>
+            </div>
+            <h2>Seeing inside the material</h2>
+            <p>
+              To the untrained eye, smoldering may appear benign, but it’s
+              responsible for consuming more than half of the plant matter
+              burned in wildfires. Smoldering logs can seethe for days and
+              ignite anew, while glowing embers, carried aloft by hot updrafts,
+              can transport wildfires to untouched areas in a flash. <br />
+              “It’s hard to get an accurate understanding of the smoldering
+              process by looking at the exterior of a log,” said Emeric Boigné,
+              a graduate student in Ihme’s lab, who developed a new analysis
+              method using advanced X-ray Computed Tomography (XCT) to study the
+              smoldering process. XCT is able to penetrate inside dense
+              materials – just as it does with the human body – to provide
+              three-dimensional images of wood structures less than a millimeter
+              in scale as they smolder and eventually catch fire.
+            </p>
+            <p></p>
+            <figcaption class="figure-caption">
+              Source:
+              <a
+                href="https://news.stanford.edu/2020/09/22/predicting-wildfires-cat-scans/"
+                >Stanford News</a
+              >
+            </figcaption>
+            <!-- Footer Links -->
+            <div class="card">
+              <div class="card-header">About the author</div>
+              <div class="card-body">
+                <h5 class="card-title">About the author</h5>
+                <p>
+                  Bazil Shah (he/him/his) is a 1st year computer science student
+                  at Durham University. He enjoys playing video games such as
+                  Zelda and Minecraft.
+                </p>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+                  <!-- Links -->
+                  <h5 class="text-uppercase">Links</h5>
+
+                  <a
+                    href="https://www.linkedin.com/in/bazil-shah-7828ba223/"
+                    class="btn btn-primary"
+                    >LinkedIn</a
+                  >
+
+                  <a
+                    href="https://github.com/blazerage32"
+                    class="btn btn-primary"
+                    >Github</a
+                  >
+
+                  <a
+                    href="https://www.youtube.com/c/Blazerage"
+                    class="btn btn-primary"
+                    >YouTube</a
+                  >
+                </div>
+                <!-- Grid column -->
+              </div>
+
+              <!-- Grid row -->
+            </div>
+            <br />
+            <h6>Continue reading...</h6>
+            <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link" href="ts.html">Previous</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="yh.html">Next</a>
+                </li>
+              </ul>
+            </nav>
+            <!-- Footer Links -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+  </body>
 </html>
